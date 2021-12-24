@@ -1,0 +1,15 @@
+C:\Users\lenovo\Masaüstü\ce103-hw4-rümeysa-er\ce103-hw4-test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\lenovo\Masaüstü\ce103-hw4-rümeysa-er\ce103-hw4-test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\lenovo\Masaüstü\ce103-hw4-rümeysa-er\ce103-hw4-test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\lenovo\Masaüstü\ce103-hw4-rümeysa-er\ce103-hw4-test\bin\Debug\Microsoft.TestPlatform.AdapterUtilities.dll
+C:\Users\lenovo\Masaüstü\ce103-hw4-rümeysa-er\ce103-hw4-test\bin\Debug\ce103-hw4-test.dll
+C:\Users\lenovo\Masaüstü\ce103-hw4-rümeysa-er\ce103-hw4-test\bin\Debug\ce103-hw4-test.pdb
+C:\Users\lenovo\Masaüstü\ce103-hw4-rümeysa-er\ce103-hw4-test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\lenovo\Masaüstü\ce103-hw4-rümeysa-er\ce103-hw4-test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\lenovo\Masaüstü\ce103-hw4-rümeysa-er\ce103-hw4-test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\lenovo\Masaüstü\ce103-hw4-rümeysa-er\ce103-hw4-test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\lenovo\Masaüstü\ce103-hw4-rümeysa-er\ce103-hw4-test\obj\Debug\ce103-hw4-test.csproj.AssemblyReference.cache
+C:\Users\lenovo\Masaüstü\ce103-hw4-rümeysa-er\ce103-hw4-test\obj\Debug\ce103-hw4-test.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\Masaüstü\ce103-hw4-rümeysa-er\ce103-hw4-test\obj\Debug\ce103-hw4-test.csproj.CopyComplete
+C:\Users\lenovo\Masaüstü\ce103-hw4-rümeysa-er\ce103-hw4-test\obj\Debug\ce103-hw4-test.dll
+C:\Users\lenovo\Masaüstü\ce103-hw4-rümeysa-er\ce103-hw4-test\obj\Debug\ce103-hw4-test.pdb
