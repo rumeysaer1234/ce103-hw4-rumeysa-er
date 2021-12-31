@@ -1,19 +1,19 @@
 ﻿  ce103-hw4-cpp-dll.cpp
-C:\Users\lenovo\Masaüstü\ce103-hw4-rümeysa-er\ce103-hw4-cpp-dll\ce103-hw4-cpp-dll.h(6,28): warning C4273: 'ce103_fibonacciNumber': inconsistent dll linkage
-C:\Users\lenovo\Masaüstü\ce103-hw4-rümeysa-er\ce103-hw4-c-dll\ce103-hw4-c-dll.h(124,31): message : see previous definition of 'ce103_fibonacciNumber'
-C:\Users\lenovo\Masaüstü\ce103-hw4-rümeysa-er\ce103-hw4-cpp-dll\ce103-hw4-cpp-dll.h(8,30): warning C4273: 'ce103_strrev': inconsistent dll linkage
-C:\Users\lenovo\Masaüstü\ce103-hw4-rümeysa-er\ce103-hw4-c-dll\ce103-hw4-c-dll.h(133,33): message : see previous definition of 'ce103_strrev'
-C:\Users\lenovo\Masaüstü\ce103-hw4-rümeysa-er\ce103-hw4-cpp-dll\ce103-hw4-cpp-dll.h(10,28): warning C4273: 'ce103_strlen': inconsistent dll linkage
-C:\Users\lenovo\Masaüstü\ce103-hw4-rümeysa-er\ce103-hw4-c-dll\ce103-hw4-c-dll.h(149,31): message : see previous definition of 'ce103_strlen'
-C:\Users\lenovo\Masaüstü\ce103-hw4-rümeysa-er\ce103-hw4-cpp-dll\ce103-hw4-cpp-dll.h(12,30): warning C4273: 'ce103_strcat': inconsistent dll linkage
-C:\Users\lenovo\Masaüstü\ce103-hw4-rümeysa-er\ce103-hw4-c-dll\ce103-hw4-c-dll.h(165,33): message : see previous definition of 'ce103_strcat'
-C:\Users\lenovo\Masaüstü\ce103-hw4-rümeysa-er\ce103-hw4-cpp-dll\ce103-hw4-cpp-dll.h(14,28): warning C4273: 'ce103_strcmp': inconsistent dll linkage
-C:\Users\lenovo\Masaüstü\ce103-hw4-rümeysa-er\ce103-hw4-c-dll\ce103-hw4-c-dll.h(183,31): message : see previous definition of 'ce103_strcmp'
-C:\Users\lenovo\Masaüstü\ce103-hw4-rümeysa-er\ce103-hw4-cpp-dll\ce103-hw4-cpp-dll.h(16,30): warning C4273: 'ce103_strcpy': inconsistent dll linkage
-C:\Users\lenovo\Masaüstü\ce103-hw4-rümeysa-er\ce103-hw4-c-dll\ce103-hw4-c-dll.h(200,33): message : see previous definition of 'ce103_strcpy'
-C:\Users\lenovo\Masaüstü\ce103-hw4-rümeysa-er\ce103-hw4-cpp-dll\ce103-hw4-cpp-dll.h(18,29): warning C4273: 'ce103_hex2bin': inconsistent dll linkage
-C:\Users\lenovo\Masaüstü\ce103-hw4-rümeysa-er\ce103-hw4-c-dll\ce103-hw4-c-dll.h(215,32): message : see previous definition of 'ce103_hex2bin'
-C:\Users\lenovo\Masaüstü\ce103-hw4-rümeysa-er\ce103-hw4-cpp-dll\ce103-hw4-cpp-dll.h(20,29): warning C4273: 'ce103_bin2hex': inconsistent dll linkage
-C:\Users\lenovo\Masaüstü\ce103-hw4-rümeysa-er\ce103-hw4-c-dll\ce103-hw4-c-dll.h(228,32): message : see previous definition of 'ce103_bin2hex'
-     Creating library C:\Users\lenovo\Masaüstü\ce103-hw4-rümeysa-er\x64\Debug\ce103-hw4-cpp-dll.lib and object C:\Users\lenovo\Masaüstü\ce103-hw4-rümeysa-er\x64\Debug\ce103-hw4-cpp-dll.exp
-  ce103-hw4-cpp-dll.vcxproj -> C:\Users\lenovo\Masaüstü\ce103-hw4-rümeysa-er\x64\Debug\ce103-hw4-cpp-dll.dll
+C:\Users\lenovo\OneDrive\Masaüstü\ce103-hw4-rumeysa-er\ce103-hw4-rümeysa-er\ce103-hw4-cpp-dll\ce103-hw4-cpp-dll.h(7,28): warning C4273: 'ce103_fibonacciNumber': inconsistent dll linkage
+C:\Users\lenovo\OneDrive\Masaüstü\ce103-hw4-rumeysa-er\ce103-hw4-rümeysa-er\ce103-hw4-c-dll\ce103-hw4-c-dll.h(124,31): message : see previous definition of 'ce103_fibonacciNumber'
+C:\Users\lenovo\OneDrive\Masaüstü\ce103-hw4-rumeysa-er\ce103-hw4-rümeysa-er\ce103-hw4-cpp-dll\ce103-hw4-cpp-dll.h(9,30): warning C4273: 'ce103_strrev': inconsistent dll linkage
+C:\Users\lenovo\OneDrive\Masaüstü\ce103-hw4-rumeysa-er\ce103-hw4-rümeysa-er\ce103-hw4-c-dll\ce103-hw4-c-dll.h(133,33): message : see previous definition of 'ce103_strrev'
+C:\Users\lenovo\OneDrive\Masaüstü\ce103-hw4-rumeysa-er\ce103-hw4-rümeysa-er\ce103-hw4-cpp-dll\ce103-hw4-cpp-dll.h(11,28): warning C4273: 'ce103_strlen': inconsistent dll linkage
+C:\Users\lenovo\OneDrive\Masaüstü\ce103-hw4-rumeysa-er\ce103-hw4-rümeysa-er\ce103-hw4-c-dll\ce103-hw4-c-dll.h(149,31): message : see previous definition of 'ce103_strlen'
+C:\Users\lenovo\OneDrive\Masaüstü\ce103-hw4-rumeysa-er\ce103-hw4-rümeysa-er\ce103-hw4-cpp-dll\ce103-hw4-cpp-dll.h(13,30): warning C4273: 'ce103_strcat': inconsistent dll linkage
+C:\Users\lenovo\OneDrive\Masaüstü\ce103-hw4-rumeysa-er\ce103-hw4-rümeysa-er\ce103-hw4-c-dll\ce103-hw4-c-dll.h(165,33): message : see previous definition of 'ce103_strcat'
+C:\Users\lenovo\OneDrive\Masaüstü\ce103-hw4-rumeysa-er\ce103-hw4-rümeysa-er\ce103-hw4-cpp-dll\ce103-hw4-cpp-dll.h(15,28): warning C4273: 'ce103_strcmp': inconsistent dll linkage
+C:\Users\lenovo\OneDrive\Masaüstü\ce103-hw4-rumeysa-er\ce103-hw4-rümeysa-er\ce103-hw4-c-dll\ce103-hw4-c-dll.h(183,31): message : see previous definition of 'ce103_strcmp'
+C:\Users\lenovo\OneDrive\Masaüstü\ce103-hw4-rumeysa-er\ce103-hw4-rümeysa-er\ce103-hw4-cpp-dll\ce103-hw4-cpp-dll.h(17,30): warning C4273: 'ce103_strcpy': inconsistent dll linkage
+C:\Users\lenovo\OneDrive\Masaüstü\ce103-hw4-rumeysa-er\ce103-hw4-rümeysa-er\ce103-hw4-c-dll\ce103-hw4-c-dll.h(200,33): message : see previous definition of 'ce103_strcpy'
+C:\Users\lenovo\OneDrive\Masaüstü\ce103-hw4-rumeysa-er\ce103-hw4-rümeysa-er\ce103-hw4-cpp-dll\ce103-hw4-cpp-dll.h(19,29): warning C4273: 'ce103_hex2bin': inconsistent dll linkage
+C:\Users\lenovo\OneDrive\Masaüstü\ce103-hw4-rumeysa-er\ce103-hw4-rümeysa-er\ce103-hw4-c-dll\ce103-hw4-c-dll.h(215,32): message : see previous definition of 'ce103_hex2bin'
+C:\Users\lenovo\OneDrive\Masaüstü\ce103-hw4-rumeysa-er\ce103-hw4-rümeysa-er\ce103-hw4-cpp-dll\ce103-hw4-cpp-dll.h(21,29): warning C4273: 'ce103_bin2hex': inconsistent dll linkage
+C:\Users\lenovo\OneDrive\Masaüstü\ce103-hw4-rumeysa-er\ce103-hw4-rümeysa-er\ce103-hw4-c-dll\ce103-hw4-c-dll.h(228,32): message : see previous definition of 'ce103_bin2hex'
+     Creating library C:\Users\lenovo\OneDrive\Masaüstü\ce103-hw4-rumeysa-er\ce103-hw4-rümeysa-er\output\Debug\ce103-hw4-cpp-dll.lib and object C:\Users\lenovo\OneDrive\Masaüstü\ce103-hw4-rumeysa-er\ce103-hw4-rümeysa-er\output\Debug\ce103-hw4-cpp-dll.exp
+  ce103-hw4-cpp-dll.vcxproj -> C:\Users\lenovo\OneDrive\Masaüstü\ce103-hw4-rumeysa-er\ce103-hw4-rümeysa-er\output\Debug\ce103-hw4-cpp-dll.dll

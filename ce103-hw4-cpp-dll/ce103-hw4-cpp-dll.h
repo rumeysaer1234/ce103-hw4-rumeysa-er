@@ -3,6 +3,7 @@
 #include "../ce103-hw4-c-dll/ce103-hw4-c-dll.h"
 
 extern "C" {
+	//It should use for the importing executable to access the DLL's generic data symbols and objects.
 	__declspec(dllimport) int ce103_fibonacciNumber(int fiIndex);
 	__declspec(dllexport) int ce103_fibonacciNumber_cpp(int fiIndex);
 	__declspec(dllimport) char* ce103_strrev(char* fiStr);

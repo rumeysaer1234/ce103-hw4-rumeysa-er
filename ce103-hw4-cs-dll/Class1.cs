@@ -4,255 +4,126 @@ using System.Globalization;
 using System.Linq;
 using System.Text;
 
-namespace ce103_hw4_cs_dll
+namespace ce103_hw4_cs_dll1
 {
-    internal class Class1
+    public class ce103_hw4_cs
     {
-    }
-}
+		public int ce103_fibonacciNumber_cs(int fiIndex)
+		{
+			int n1 = 0, n2 = 1, n3;
+
+			for (int i = 1; i <= fiIndex; i++)
+
+			{
+				n3 = n1 + n2;
+				n1 = n2;
+				n2 = n3;
+			}
+			return n1;
+		}
+			public string ce103_strrev_cs(string fiStr)
+			{
+				string rvrsdStr = "";
+				for (int cnt = fiStr.Length - 1; cnt >= 0; cnt--)
+				{
+					rvrsdStr += fiStr[cnt];
+				}
+				return rvrsdStr;
+			}
+			public int ce103_strlen_cs(string fiStr)
+			{
+				int len = 0;
+				foreach (char x in fiStr)
+				{
+					len += 1;
+				}
+				return len;
+			}
+			public string ce103_strcat_cs(string fiDest, string fiSrc)
+			{
+				return fiDest + fiSrc;
+			}
+			public int ce103_strcmp_cs(string fiLhs, string fiRhs)
+			{
+				int i1 = 0, i2 = 0;
+				for (int x = 0; x < (fiLhs.Length > fiRhs.Length ? fiLhs.Length : fiRhs.Length); x++)
+				{
+					i1 += (x >= fiLhs.Length ? 0 : fiLhs[x]) - (x >= fiRhs.Length ? 0 : fiRhs[x]);
+					if (i2 < 0)
+					{
+						if (i1 < 0)
+							i2 += i1;
+						if (i1 > 0)
+							i2 += -i1;
+					}
+					else
+					{
+						i2 += i1;
+					}
+				}
+				return i2;
+			}
+			public string ce103_strcpy_cs(string foDestination, string fiSource)
+			{
+
+				foDestination = fiSource;
+				return foDestination;
+			}
+			public void ce103_hex2bin_cs(string fiHex, int fiHexLen, byte[] foBin)
+			{
+				//char[] foBinArr = new char[fiHexLen / 2];
+
+				int[] count = { 0, 0 };  // count array for storing ascii and hex value of selected element 
+				for (int a = 0; a < fiHexLen; a += 2)
+				{  // array for assigning foBin elements
+					char[] temp = new char[2];  // store two character from fiHex func
+					int hexint = 0;  // hexint stores sum of two ascii values generated from hex base
+					for (int b = 0; b < 2; b++)
+					{  // for loop for calculating sum of ascii values
+						temp[b] = (char)fiHex[a + b];  // assigning first fiHex element to temp
+						if (b == 0)
+						{  // if b == 0 meaning first element of temp
+
+							if (temp[b] >= '0' && temp[b] <= '9')
+							{  // bounds
+								count[b] = temp[b] - '0';  // find int value of nibble
+								count[b] *= 16;  // multiply by 16 because of 16^1*hex digit
+							}
+							else if (temp[b] >= 'A' && temp[b] <= 'F')
+							{  // bounds
+								count[b] = temp[b] - 'A' + 10;  // take difference between temp and 'A' then plus 10
+								count[b] *= 16;
+							}
+						}
+						else
+						{  // means 1
+							if (temp[b] >= '0' && temp[b] <= '9')
+							{
+								count[b] = temp[b] - '0';  // we're not multiplying by 16 because it's 16^0 digit
+							}
+							else if (temp[b] >= 'A' && temp[b] <= 'F')
+							{
+								count[b] = temp[b] - 'A' + 10;
+							}
+						}
+						hexint += count[b];  // get two digit value's sum and assign it to hexint
+					}
+					foBin[a / 2] = (byte)hexint;  // assigning summed values to foBin
+				}
+			}
+			public void ce103_bin2hex_cs(byte[] fiBin, int fiBinLen, char[] foHex)
+			{
+				//char[] foHexArr = new char[fiBinLen * 2];
+				//foHexArr = foHex.ToCharArray();
+				char[] arr = { '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'A', 'B', 'C', 'D', 'E', 'F' };
+
+				for (int x = 0; x < fiBinLen; x++)
+				{
+					foHex[x * 2] = arr[fiBin[x] >> 4];  // it means divide by 16. arr[fiBin[i] / 16] is true also
+					foHex[x * 2 + 1] = arr[fiBin[x] & 0x0F];  // if i = 0 then fiBin[0] & 0x0f Note: fiBin[0] = 0x13
+				}
+			}
+		}
+	}
 
 
-namespace CSharpFibonacciDizilimi
-{
-    class MainClass
-    {
-        public static void Main(string[] args)
-        {
-            if (args is null)
-            {
-                throw new ArgumentNullException(nameof(args));
-            }
-
-            int a, b = 1, result = 0;
-            // We create int type variables named a, b and result.
-            // We set the variable b to 1.
-            // set the result variable to 0.  
-
-
-            for (int i = 0; i < 10; i++)
-            {
-                // We create a loop.
-                // Create an int variable named i.
-                // Our loop will repeat until i equals 10.
-                // Increment the variable i by one.
-                // In this way we have the day returned 10 times.  
-
-
-                a = b;
-                // We assign the value of variable b to variable a. 
-
-                b = result;
-                // We assign the value of the result variable to variable b.  
-
-                result = a + b;
-                // We add the a and b values ​​and assign them to the result variable. 
-
-                Console.WriteLine(result);
-                // sWe print the oc value to the console.  
-
-            }
-        }
-    }
-}
-
-
-
-
-
-namespace strlen { 
-}
-public class Program
-{
-    public static void Main(string[] args)
-    {
-        if (args is null)
-        {
-            throw new ArgumentNullException(nameof(args));
-        }
-
-        string value = "Hello";
-        Console.WriteLine("number of characters : {0}", value.Length);
-
-        string value2 = "";
-        Console.WriteLine("number of characters : {0}", value2.Length);
-
-        Console.WriteLine("number of characters : {0}", "Hello".Length);
-        _ = value.Length;
-
-        Console.ReadLine();
-        Console.WriteLine("number of characters : {0}", value.Length);
-    }
-}
-
-
-namespace strrev
-{
-
-}
-
-public static class Test
-{
-    private static IEnumerable<string> GraphemeClusters(this string s)
-    {
-        var enumerator = StringInfo.GetTextElementEnumerator(s);
-        while (enumerator.MoveNext())
-        {
-            yield return (string)enumerator.Current;
-        }
-    }
-    private static string ReverseGraphemeClusters(this string s)
-    {
-        return string.Join("", s.GraphemeClusters().Reverse().ToArray());
-    }
-
-    public static void Main()
-    {
-        var s = "Les Mise\u0301rables";
-        var r = s.ReverseGraphemeClusters();
-        Console.WriteLine(r);
-    }
-}
-
-
-namespace Strcat
-
-{
-    public class Program
-    {
-        public static void Main(string[] args)
-        {
-            if (args is null)
-            {
-                throw new ArgumentNullException(nameof(args));
-            }
-
-            string value1 = "Merhaba1";
-            string value2 = "Merhaba2";
-            string result = string.Concat(value1, value2);
-            Console.WriteLine(result);
-
-            Console.ReadLine();
-        }
-    }
-}
-
-namespace strcmp
-{
-
-}
-    public class StringExample
-{
-    public static void Main(string[] args)
-    {
-        if (args is null)
-        {
-            throw new ArgumentNullException(nameof(args));
-        }
-
-        string s1 = "hello";
-        string s2 = "hello";
-        string s3 = "csharp";
-        string s4 = "mello";
-
-        Console.WriteLine(string.Compare(s1, s2));
-        Console.WriteLine(string.Compare(s2, s3));
-        Console.WriteLine(string.Compare(s3, s4));
-    }
-}
-
-    namespace hex2bin
-    {
-
-    }
-    public class Util
-    {
-        /*
-         * Function: hex2bin
-         */
-        public static char hex2bin(char c)
-        {
-            if ('0' <= c && '9' >= c)
-            {
-                return (char)(c - '0');
-            }
-            else if ('a' <= c && 'f' >= c)
-            {
-                return (char)(c - 'a' + 10);
-            }
-            else if ('A' <= c && 'F' >= c)
-            {
-                return (char)(c - 'A' + 10);
-            }
-
-            return (char)0;
-        }
-
-    }
- namespace bin2hex { }
-   
-public class CryptoUtility
-{
-}
-
-namespace strcpy { }
-
-// C# program to demonstrate the 
-// use of Copy() method
-
-class Class1
-{
-
-    static void Cpymethod()
-    {
-        string str1 = "GeeksforGeeks";
-        string str2 = "GFG";
-        Console.WriteLine("Original Strings are str1 = "
-            + "'{0}' and str2='{1}'", str1, str2);
-
-        Console.WriteLine("");
-
-        Console.WriteLine("After Copy method");
-        Console.WriteLine("");
-
-        // using the Copy method
-        // to copy the value of str1 
-        // into str2
-        str2 = String.Copy(str1);
-
-        Console.WriteLine("Strings are str1 = "
-        + "'{0}' and str2='{1}'", str1, str2);
-
-        // check the objects reference equal or not
-        Console.WriteLine("ReferenceEquals: {0}",
-            Object.ReferenceEquals(str1, str2));
-
-        // check the objects are equal or not
-        Console.WriteLine("Equals: {0}", Object.Equals(str1, str2));
-        Console.WriteLine("");
-
-        Console.WriteLine("After Assignment");
-        Console.WriteLine("");
-
-        // to str1 object reference assign to str2
-        str2 = str1;
-
-        Console.WriteLine("Strings are str1 = '{0}' "
-                    + "and str2 = '{1}'", str1, str2);
-
-        // check the objects reference equal or not
-        Console.WriteLine("ReferenceEquals: {0}",
-            Object.ReferenceEquals(str1, str2));
-
-        // check the objects are equal or not
-        Console.WriteLine("Equals: {0}", Object.Equals(str1, str2));
-
-    }
-
-    // Main Method
-    public static void Main()
-    {
-
-        // calling method
-        Cpymethod();
-    }
-}

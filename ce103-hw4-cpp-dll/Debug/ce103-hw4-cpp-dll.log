@@ -1,0 +1,2 @@
+﻿  ce103-hw4-cpp-dll.cpp
+C:\Users\lenovo\OneDrive\Masaüstü\ce103-hw4-rümeysa-er\ce103-hw4-cpp-dll\ce103-hw4-cpp-dll.cpp(42,1): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "pch.h"' to your source?

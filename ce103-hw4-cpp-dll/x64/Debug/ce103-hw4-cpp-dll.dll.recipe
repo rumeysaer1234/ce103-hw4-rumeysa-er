@@ -2,10 +2,10 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>C:\Users\lenovo\Masaüstü\ce103-hw4-rümeysa-er\x64\Debug\ce103-hw4-c-dll.dll</FullPath>
+      <FullPath>C:\Users\lenovo\OneDrive\Masaüstü\ce103-hw4-rumeysa-er\ce103-hw4-rümeysa-er\output\Debug\ce103-hw4-c-dll.dll</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>C:\Users\lenovo\Masaüstü\ce103-hw4-rümeysa-er\x64\Debug\ce103-hw4-cpp-dll.dll</FullPath>
+      <FullPath>C:\Users\lenovo\OneDrive\Masaüstü\ce103-hw4-rumeysa-er\ce103-hw4-rümeysa-er\output\Debug\ce103-hw4-cpp-dll.dll</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />
